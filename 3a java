@@ -1,0 +1,14 @@
+public class wasteCollectionVehicle {
+    public static void main(String[] args) {
+
+        int vehicleNo= 1024;
+        double wasteCollected = 145.5; 
+        int collectionPoints = 8;
+        char vehicleStatus = 'A'; 
+    
+        System.out.println("Vehicle Number: " + vehicleNo);
+        System.out.println("Waste Collected (kg): " + wasteCollected);
+        System.out.println("Number of Collection Points: " + collectionPoints);
+        System.out.println("Vehicle Status: " + vehicleStatus);
+    }
+}
